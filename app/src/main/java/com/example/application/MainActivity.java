@@ -92,7 +92,6 @@ public class MainActivity extends Activity {
                 Intent intent = new Intent(MainActivity.this, AddActivity.class);
                 intent.putExtra("username",username);
                 startActivity(intent);
-                MainActivity.this.finish();
             }
         });
 
